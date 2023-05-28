@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DriverMapActivity"
+    android:layout_width="match_parent"
+    tools:openDrawer="start"
+    android:id="@+id/drawer"
+    >
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/main_menu"
+        app:headerLayout="@layout/nevigation_header"
+        android:visibility="gone"
+        />
+
+
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        tools:context=".DriverMapActivity"
+        android:layout_width="match_parent"
+        android:background="@color/Gray">
+
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-5dp"
+            android:layout_marginBottom="6dp"
+            tools:layout="@layout/tmp_layout" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="14dp"
+            android:src="@drawable/ic_baseline_menu_24" />
+
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="-7dp"
+            android:text="SETTING" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="41dp"
+            android:layout_marginEnd="0dp"
+            android:text="LOGOUT" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/tvCustomerName"
+            android:layout_width="411dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginBottom="86dp"
+            android:background="@color/white"
+            android:paddingLeft="20sp"
+
+            android:drawableLeft="@drawable/ic_person_24"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvCustomerEmail"
+            android:layout_width="411dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginBottom="47dp"
+            android:background="@color/white"
+            android:paddingLeft="20sp"
+
+            android:drawableLeft="@drawable/ic_email_24"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvCustomerPhone"
+            android:layout_width="411dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginBottom="7dp"
+            android:background="@color/white"
+            android:paddingLeft="20sp"
+            android:drawableLeft="@drawable/ic_phone_24"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+

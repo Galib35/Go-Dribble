@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Go Dribble</string>
+    <string name="title_activity_driver_map">DriverMapActivity</string>
+    <string name="title_activity_customer_map">CustomerMapActivity</string>
+</resources>

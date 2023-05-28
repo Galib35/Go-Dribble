@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "174112262694",
+    "project_id": "go-dribble",
+    "storage_bucket": "go-dribble.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174112262694:android:cae47fedc58aac6173f4e7",
+        "android_client_info": {
+          "package_name": "com.example.godribble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174112262694-vnvcet2m12nfg8vm1oc416oe2n2v2bj0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxaBpdgw9nPcN65orpgUEIo1uuHIpaSjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174112262694-vnvcet2m12nfg8vm1oc416oe2n2v2bj0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

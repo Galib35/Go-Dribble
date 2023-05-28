@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/driverpass"
+
+    tools:context=".WelcomeActivity">
+
+    <Button
+        android:id="@+id/welcome_customer_btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/welcome_driver_btn"
+        android:layout_alignBottom="@+id/welcome_driver_btn"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="-83dp"
+        android:backgroundTint="@color/BlueViolet"
+        android:text="CUSTOMER"
+
+        />
+
+    <Button
+
+        android:id="@+id/welcome_driver_btn"
+
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="93dp"
+        android:backgroundTint="@color/BlueViolet"
+        android:text="DRIVER"
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/acc"
+            android:title="Account"/>
+<!--            android:icon="@drawable/ic_twotone_account"-->
+
+        <item
+            android:id="@+id/history"
+            android:title="History"/>
+<!--            android:icon="@drawable/ic_twotone_favorite_menu"-->
+
+        <item
+            android:id="@+id/payment"
+            android:title="Payment"/>
+<!--            android:icon="@drawable/ic_twotone_history"-->
+
+        <item
+            android:id="@+id/reviews"
+            android:title="Reviews"/>
+<!--            android:icon="@drawable/ic_twotone_reviews"-->
+
+        <item
+            android:id="@+id/share_app"
+            android:title="Share App"/>
+<!--            android:icon="@drawable/ic_twotone_feedback"-->
+
+        <item
+            android:id="@+id/adm"
+            android:title="admin"
+
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/log_out"
+            android:title="Log Out"
+
+            />
+    </group>
+
+</menu>
